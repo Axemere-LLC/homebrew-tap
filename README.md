@@ -31,7 +31,7 @@ Three ways to run it:
 - **Free Gateway** — self-hosted, run anywhere, no account or request limits.
   → https://axemere.ai/docs/free-gateway
 - **Self-Hosted Gateway** — your infra, connected to the Axemere Control Plane and
-  Cloud Console. → https://axemere.ai/docs/guides/it-setup
+  Cloud Console. → https://axemere.ai/docs/guides/it-setup/macos
 - **Managed Gateway** — Axemere runs it in the cloud, no infra to operate.
   → https://axemere.ai/docs/guides/managed-gateway
 
