@@ -5,13 +5,13 @@
 class MvgcConsole < Formula
   desc "Axemere AI Gateway console — local web dashboard"
   homepage "https://axemere.ai"
-  version "1.1.5"
+  version "1.1.10"
   license "Proprietary"
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/Axemere-LLC/mvgc-releases/releases/download/v1.1.5/mvgc-console_1.1.5_darwin_arm64.tar.gz"
-    sha256 "0e6fc892e8a1e7986e69251967e384090d6b0a8c9d007dde93c76ba3670686c1"
+    url "https://github.com/Axemere-LLC/mvgc-releases/releases/download/v1.1.10/mvgc-console_1.1.10_darwin_arm64.tar.gz"
+    sha256 "4b0b70ee297b0841b3afe050a1b223565756c966fd1a36af8e9eed32500337ab"
 
     define_method(:install) do
       bin.install "mvgc-console"
