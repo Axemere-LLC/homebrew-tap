@@ -5,13 +5,13 @@
 class MvgcGateway < Formula
   desc "Axemere AI Gateway — self-hosted AI API governance gateway"
   homepage "https://axemere.ai"
-  version "1.4.5"
+  version "1.4.6"
   license "Proprietary"
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/Axemere-LLC/mvgc-releases/releases/download/v1.4.5/mvgc-gateway_1.4.5_darwin_arm64.tar.gz"
-    sha256 "f2f1c2174802ec600330e7f92eacd683a5375bb6b285d6111ca8171ba059f4a4"
+    url "https://github.com/Axemere-LLC/mvgc-releases/releases/download/v1.4.6/mvgc-gateway_1.4.6_darwin_arm64.tar.gz"
+    sha256 "b2ddf8acb8e4f1c6201a7f2e02b4cf1c4a0293f1c0f311d361a6bf460f4df3cc"
 
     define_method(:install) do
       bin.install "mvgc-gateway"
