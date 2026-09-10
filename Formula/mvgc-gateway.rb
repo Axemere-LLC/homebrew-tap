@@ -11,7 +11,7 @@ class MvgcGateway < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/Axemere-LLC/mvgc-releases/releases/download/v1.4.7/mvgc-gateway_1.4.7_darwin_arm64.tar.gz"
-    sha256 "e781f624523a47cf0402169b7405c90fd9621d97901f2ddf0820bdb7915bea8d"
+    sha256 "6be9d14bb276021fdd728c7ca30e258fea5f493459bdc8655de20ecb0244485e"
 
     define_method(:install) do
       bin.install "mvgc-gateway"
